@@ -27,22 +27,17 @@ There you should include the path "$(SRCROOT)/../node_modules/react-native-spati
 ```javascript
 import db from 'react-native-spatialite';
 
-db.createConnection('test.db').then(connected => {
-    console.log('Database is connected', connected);
-    return db.getVersion();
-}).then(
-    array => {
-        console.log({arr});
+// connect to the db
+db.createConnection('test.db')
+    .then(() => {
+        // execute query
         return db.executeQuery('SELECT * FROM MyTable');
-    }
-).then(
-    rows => {
-        console.log({rows});
-    }
-).catch(
-    err => {
-        throw err;
-    }
-);
+    })
+    .then(rows => {
+        // do your work
+    })
+    .catch( err => {
+        console.error(err);
+    });
 ```
   
