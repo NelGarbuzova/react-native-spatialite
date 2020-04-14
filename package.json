@@ -1,37 +1,6 @@
 {
-  "_from": "react-native-spatialite@^0.1.0",
-  "_id": "react-native-spatialite@0.1.0",
-  "_inBundle": false,
-  "_integrity": "sha1-OV2RVh2Bnkwkew4SpSGtezU+x8M=",
-  "_location": "/react-native-spatialite",
-  "_phantomChildren": {},
-  "_requested": {
-    "type": "range",
-    "registry": true,
-    "raw": "react-native-spatialite@^0.1.0",
-    "name": "react-native-spatialite",
-    "escapedName": "react-native-spatialite",
-    "rawSpec": "^0.1.0",
-    "saveSpec": null,
-    "fetchSpec": "^0.1.0"
-  },
-  "_requiredBy": [
-    "/"
-  ],
-  "_resolved": "https://registry.npmjs.org/react-native-spatialite/-/react-native-spatialite-0.1.0.tgz",
-  "_shasum": "395d91561d819e4c247b0e12a521ad7b353ec7c3",
-  "_spec": "react-native-spatialite@^0.1.0",
-  "_where": "/Users/dc2dev/Documents/Research/MOB/spatialite-map-react-native",
-  "author": {
-    "name": "INDEC"
-  },
-  "bugs": {
-    "url": "https://github.com/indec-it/react-native-spatialite/issues"
-  },
-  "bundleDependencies": false,
-  "deprecated": false,
-  "description": "React Native Spatialite Plugin for Android.",
-  "homepage": "https://github.com/indec-it/react-native-spatialite#readme",
+  "name": "@NeliHarbuzava/react-native-spatialite",
+  "version": "1.0.0",
   "keywords": [
     "react-native",
     "android",
@@ -40,16 +9,26 @@
   ],
   "license": "MIT",
   "main": "index.js",
-  "name": "react-native-spatialite",
+  "author": {
+    "name": "Neli Harbuzava",
+    "email": "nelgarbuzova@gmail.com"
+  },
+  "bugs": {
+    "url": "https://github.com/NeliHarbuzava/react-native-spatialite/issues"
+  },
+  "bundleDependencies": false,
+  "deprecated": false,
+  "description": "React Native Spatialite Plugin for Android.",
+  "homepage": "https://github.com/NeliHarbuzava/react-native-spatialite#readme",
   "peerDependencies": {
     "react-native": "^0.41.2"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/indec-it/react-native-spatialite.git"
+    "url": "git+https://github.com/NeliHarbuzava/react-native-spatialite.git"
   },
+  "publishConfig": { "registry": "https://npm.pkg.github.com/" },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "version": "0.1.0"
+  }
 }
