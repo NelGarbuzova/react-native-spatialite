@@ -5,7 +5,7 @@ React Native Spatialite Plugin for iOS
 
 ## Installation
 
-1. Run `npm install @neliharbuzava/react-native-spatialite`
+1. Run `npm install https://github.com/NeliHarbuzava/react-native-spatialite.git`
 
 ## Linking
 
